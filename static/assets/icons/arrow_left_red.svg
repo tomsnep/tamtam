@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow_left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home---Desktop" transform="translate(-377.000000, -459.000000)">
+            <g id="Slider" transform="translate(0.000000, 80.000000)">
+                <g id="buttons" transform="translate(377.000000, 379.000000)">
+                    <g id="arrows">
+                        <g id="arrow_left" transform="translate(20.000000, 20.000000) scale(-1, 1) translate(-20.000000, -20.000000) ">
+                            <path d="M20,40 C31.045695,40 40,31.045695 40,20 C40,8.954305 31.045695,0 20,0 C8.954305,0 0,8.954305 0,20 C0,31.045695 8.954305,40 20,40 Z" id="bg" fill="#FD5454"></path>
+                            <path d="M23.3221664,21.0179777 C23.3221664,21.0179777 24,20.490693 24,20.0310462 C24,19.5903089 23.3221664,19.0426601 23.3221664,19.0426601 L23.3119844,19.0332053 L17.9314984,14.2607332 C17.4907612,13.9130889 16.7700175,13.9130889 16.3300075,14.2607332 C15.8899975,14.6091048 15.8899975,15.1792995 16.3300075,15.5269438 L20.8348372,20.0303189 L16.3300075,24.5329667 C15.8899975,24.8820655 15.8899975,25.4508057 16.3300075,25.7999045 C16.7700175,26.1475488 17.4907612,26.1475488 17.9314984,25.7999045 L23.3119844,21.0274324 L23.3221664,21.0179777" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

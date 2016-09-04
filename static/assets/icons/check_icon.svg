@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="19px" viewBox="0 0 24 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Check Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Contact---Validation-Successful" transform="translate(-772.000000, -487.000000)" fill="#7BDB4C">
+            <g id="Form" transform="translate(202.000000, 321.000000)">
+                <path d="M578.205656,184.116991 L578.348389,184.259724 L594,168.608113 L591.391887,166 L577.968539,179.423348 L572.608113,174.062923 L570,176.671036 L577.825805,184.496841 L578.205656,184.116991 Z" id="Check-Icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

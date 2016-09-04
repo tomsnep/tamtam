@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Tom Snepvangers - TamTam Frontend case</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,900" rel="stylesheet">
+
+	<link rel="stylesheet" href="static/css/style.css">
+	<link rel="stylesheet" href="static/css/slick.css">
+</head>
+<body>
+	<header>
+		<div class="header__menu-button">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</div>
+
+		<div class="header__logo">
+			<a href="#home-section">
+				<img src="static/assets/icons/logo.svg" alt="Logo TamTam">
+			</a>
+		</div>
+
+		<nav class="header__nav">
+			<ul>
+				<li class="header__nav-item active"><a href="#home-section">Home</a></li>
+				<li class="header__nav-item"><a href="#people-section">People</a></li>
+				<li class="header__nav-item"><a href="#contact-section">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<section id="home-section" class="nav-section active">
+		<div class="home__carousel-container">
+			<div class="home__carousel">
+				  <div class="home__carousel-item walibi">
+				  	<div class="home__carousel-item-container">
+					  	<h2>Walibi</h2>
+					  	<button class="home__carousel-button">View Case</button>
+					</div>
+				  </div>
+				  <div class="home__carousel-item florensis">
+				  	<div class="home__carousel-item-container">
+					  	<h2>Florensis</h2>
+					  	<button class="home__carousel-button">View Case</button>
+					</div>
+				  </div>
+				  <div class="home__carousel-item oxxio">
+				  	<div class="home__carousel-item-container">
+					  	<h2>Oxxio</h2>
+					  	<button class="home__carousel-button">View Case</button>
+					</div>
+				  </div>
+			</div>
+			<div class="home__carousel-icon"></div>
+		</div>
+
+		<section class="home__about">
+			<h2>WE ARE TAMTAM</h2>
+			<p>Tam Tam is a full service digital agency focusing on Dutch Digital Service Design. We combine strategy, design, technology and interaction to make the digital interactions between company and customer valuable and memorable. We work for awesome brands with a team of 120 digitals from our office in Amsterdam. Making great work and having a blast doing it. That’s what we believe in. </p>
+		</section>
+
+		<section class="home__feed">
+			<h2>Follow us on Instagram</h2>
+			<span class="home__feed-username">@tamtamnl</span>
+			<ul id="home__feed-ul">
+	                <li class="home__feed-li">
+	                    <a href="" data-bind="imageLink">
+	                        <img class="home__feed-img" data-bind="imageSrc"/>
+	                        <span class="home__feed-caption" data-bind="imageCaption"></span>
+	                    </a>
+	                </li>
+	            </ul>
+		</section>
+	</section>
+
+	<section id="contact-section" class="nav-section">
+		<h1 class="contact__title">We would love to hear from you</h1>
+		<div class="contact__form-container">
+			<div class="contact__form-error-message">
+				<div class="icon">!</div>
+				<div class="message"><p>Please complete the form and try again.</p></div>
+			</div>
+			<form id="contact__form" action="" method="">
+				<div class="container">
+					<div class="input">
+						<input id="first-name" type="text" class="required-input" name="first-name" placeholder="First name">
+						<div id="first-name-check-icon" class="check-icon">
+							<img src="static/assets/icons/check_icon.svg" alt="check icon">
+						</div>
+						<span id="first-name-error-message" class="contact__input-error-message">We need your first name.</span>
+					</div>
+					
+					<div class="input">
+						<input id="last-name" type="text" class="required-input" name="last-name" placeholder="Last name">
+						<div id="last-name-check-icon" class="check-icon">
+							<img src="static/assets/icons/check_icon.svg" alt="check icon">
+						</div>
+						<span id="last-name-error-message" class="contact__input-error-message">We need your last name.</span>
+					</div class="input">
+
+					<div class="input">
+						<input id="email" type="email" class="required-input" name="email" placeholder="Your e-mail address">
+						<div id="email-check-icon" class="check-icon">
+							<img src="static/assets/icons/check_icon.svg" alt="check icon">
+						</div>
+						<span id="email-error-message" class="contact__input-error-message">Please use a valid e-mail address.</span>
+					</div>
+
+					<div class="input">
+						<input type="tel" name="phone" placeholder="Your phone number (optional)">
+					</div>
+
+					<div class="input">
+						<textarea id="message" name="message" class="required-input" rows="5"  placeholder="Your message..."></textarea>
+						<div id="message-check-icon" class="check-icon">
+							<img src="static/assets/icons/check_icon.svg" alt="check icon">
+						</div>
+						<span id="message-error-message" class="contact__input-error-message">Sorry, your message can't be empty</span>
+					</div>
+				</div>
+				<input type="submit" id="contact__form-submit" value="Send">
+			</form>
+		</div>
+	</section>
+
+	<footer>
+		<a href="https://www.facebook.com/tamtamnl/">
+			<svg width="11" height="20" viewBox="0 0 11 20" xmlns="http://www.w3.org/2000/svg">
+			  <title>
+			    facebook
+			  </title>
+			  <path d="M10.406.004L7.812 0C4.9 0 3.016 1.932 3.016 4.922v2.27H.408c-.226 0-.408.182-.408.407v3.288c0 .225.183.407.408.407h2.608v8.297c0 .226.182.408.407.408h3.403c.225 0 .407-.183.407-.408v-8.297h3.05c.225 0 .407-.182.407-.407l.002-3.29c0-.107-.044-.21-.12-.287-.076-.076-.18-.12-.29-.12h-3.05V5.27c0-.925.222-1.394 1.426-1.394h1.747c.226 0 .408-.184.408-.41V.413c0-.225-.182-.407-.407-.408z" fill="#FFF" fill-rule="evenodd"/>
+			</svg>
+		</a>
+		<a href="https://twitter.com/tamtamnl">
+			<svg width="25" height="20" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg">
+			  <title>
+			    twitter
+			  </title>
+			  <path d="M24.66 2.366c-.91.402-1.882.674-2.906.796C22.8 2.537 23.6 1.546 23.978.37c-.98.578-2.062.998-3.214 1.226C19.84.612 18.528 0 17.072 0c-2.794 0-5.06 2.262-5.06 5.05 0 .395.045.78.132 1.15C7.94 5.99 4.214 3.98 1.718.923c-.436.745-.684 1.613-.684 2.54 0 1.75.894 3.298 2.25 4.202-.83-.028-1.61-.255-2.292-.634v.064c0 2.447 1.745 4.488 4.057 4.953-.424.114-.87.177-1.333.177-.327 0-.643-.032-.953-.094.644 2.008 2.512 3.468 4.725 3.508-1.732 1.354-3.914 2.16-6.283 2.16-.41 0-.81-.026-1.207-.07C2.24 19.163 4.897 20 7.754 20c9.305 0 14.392-7.696 14.392-14.37l-.017-.654c.993-.708 1.852-1.597 2.53-2.61z" fill="#FFF" fill-rule="evenodd"/>
+			</svg>
+
+		</a>
+		<a href="https://www.instagram.com/tamtamnl/">
+			<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+			  <title>
+			    instagram
+			  </title>
+			  <path d="M2.567 0h14.866C18.845 0 20 1.045 20 2.567v14.866C20 18.955 18.845 20 17.433 20H2.567C1.155 20 0 18.955 0 17.433V2.567C0 1.045 1.155 0 2.567 0zM14.57 2.222c-.496 0-.9.412-.9.916V5.33c0 .505.404.917.9.917h2.26c.495 0 .9-.412.9-.916V3.14c0-.504-.405-.916-.9-.916h-2.26zm3.17 6.236h-1.76c.166.544.256 1.12.256 1.716 0 3.326-2.784 6.023-6.217 6.023-3.434 0-6.217-2.697-6.217-6.023 0-.597.09-1.173.256-1.716H2.22v8.448c0 .437.358.795.796.795h13.927c.437 0 .795-.356.795-.794V8.458zm-7.72-2.393C7.8 6.065 6 7.807 6 9.957s1.8 3.892 4.017 3.892c2.217 0 4.016-1.744 4.016-3.893 0-2.15-1.8-3.892-4.017-3.892z" fill="#FFF" fill-rule="evenodd"/>
+			</svg>
+		</a>
+	</footer>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<script src="static/libs/routie.js"></script> 
+<script src="static/libs/aja.min.js"></script> 
+<script src="static/libs/transparency.min.js"></script> 
+<script src="static/libs/slick.min.js"></script> 
+<script src="static/libs/underscore-min.js"></script> 
+
+<script src="static/js/modules/animations.js"></script> 
+<script src="static/js/modules/home_section.js"></script> 
+<script src="static/js/modules/contact_section.js"></script> 
+<script src="static/js/modules/routes.js"></script> 
+<script src="static/js/modules/launcher.js"></script> 
+
+
+</html>
